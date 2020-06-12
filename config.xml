@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Settings>
+ <Servers>
+	 <Server>
+		 <id>0</id>
+		 <ip>192.168.178.1:49000</ip>
+		 <model>FRITZ!Box 6590 Cable</model>
+		 <ports>33333,33334</ports>
+		 <protocol>tcp</protocol>
+		 <command>string_id</command>
+	 </Server>
+ </Servers>
+</Settings>

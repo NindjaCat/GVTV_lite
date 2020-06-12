@@ -1,0 +1,3605 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<channelTable msys="DVB-S-AUTO">
+	<channel number="1">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Das Erste HD</name>
+		<freq>11494</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,5100,5101,5102,5103,5104,5105,5106</pids>
+		<fec>23</fec>
+	</channel>
+	<channel number="2">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>ZDF HD</name>
+		<freq>11362</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,6100,6110,6120,6121,6122,6123,6130,6131</pids>
+		<fec>23</fec>
+	</channel>
+	<channel number="3">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>3sat HD</name>
+		<freq>11347</freq>
+		<pol>v</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,6500,6510,6520,6521,6522,6523,6530,6531</pids>
+		<fec>23</fec>
+	</channel>
+	<channel number="4">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>KiKA HD</name>
+		<freq>11347</freq>
+		<pol>v</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,6600,6610,6620,6621,6622,6630,6631</pids>
+	</channel>
+	<channel number="5">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>ZDFinfo HD</name>
+		<freq>11347</freq>
+		<pol>v</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,6700,6710,6720,6721,6722,6723,6730,6731</pids>
+		<fec>23</fec>
+	</channel>
+	<channel number="6">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>zdf_neo HD</name>
+		<freq>11362</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,6300,6310,6320,6321,6322,6323,6330,6331</pids>
+	</channel>
+	<channel number="7">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>zdf.kultur HD</name>
+		<freq>11362</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,6400,6410,6420,6421,6422,6423,6430</pids>
+	</channel>
+	<channel number="8">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>SPORT1</name>
+		<freq>12480</freq>
+		<pol>v</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,103,39,1023,1024</pids>
+	</channel>
+	<channel number="9">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>SAT.1</name>
+		<freq>12545</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,96,32,255,256,259</pids>
+	</channel>
+	<channel number="10">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>ProSieben</name>
+		<freq>12545</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,97,33,511,512,515</pids>
+	</channel>
+	<channel number="11">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>kabel eins</name>
+		<freq>12545</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,98,34,767,768</pids>
+	</channel>
+	<channel number="12">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>N24</name>
+		<freq>12545</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,99,35,1023,1024</pids>
+	</channel>
+	<channel number="13">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>SAT.1 Gold</name>
+		<freq>12545</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,100,36,1279,1280</pids>
+	</channel>
+	<channel number="14">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>ProSieben MAXX</name>
+		<freq>12545</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,101,37,1535,1536</pids>
+	</channel>
+	<channel number="15">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>RTL FS</name>
+		<freq>12188</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,56,163,104,105</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="16">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>RTL2</name>
+		<freq>12188</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,46,166,128,68,75</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="17">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>SUPER RTL</name>
+		<freq>12188</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,45,165,120,65,66</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="18">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>VOX</name>
+		<freq>12188</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,47,167,136,71,74</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="19">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>RTLNITRO</name>
+		<freq>12188</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,53,173,146,84,86</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="20">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>n-tv</name>
+		<freq>12188</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,48,169,73,80</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="21">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Einsfestival</name>
+		<freq>10744</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,200,201,202,203,204,206</pids>
+	</channel>
+	<channel number="22">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>EinsPlus</name>
+		<freq>10744</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,300,301,302,303,304,306</pids>
+	</channel>
+	<channel number="23">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>arte</name>
+		<freq>10744</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,400,401,402,403,407,408,404</pids>
+	</channel>
+	<channel number="24">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>PHOENIX</name>
+		<freq>10744</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,500,501,502,503,504</pids>
+	</channel>
+	<channel number="25">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>ANIXE HD</name>
+		<freq>10773</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,96,255,259</pids>
+	</channel>
+	<channel number="26">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>QVC HD</name>
+		<freq>10773</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,99,35,1023,1027</pids>
+	</channel>
+	<channel number="27">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>HSE24 HD</name>
+		<freq>10773</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,100,36,1279,1283</pids>
+	</channel>
+	<channel number="28">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>HSE24 EXTRA HD</name>
+		<freq>10803</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,97,33,511,515</pids>
+	</channel>
+	<channel number="29">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>1-2-3.tv HD</name>
+		<freq>10803</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,98,34,767,771</pids>
+	</channel>
+	<channel number="136">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Deluxe Music HD</name>
+		<freq>10803</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,99,1023,1027</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="31">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>QVC PLUS HD</name>
+		<freq>10803</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,100,36,1279,1283</pids>
+	</channel>
+	<channel number="32">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Deluxe Music HD Austria</name>
+		<freq>10803</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,115,1023,1027</pids>
+	</channel>
+	<channel number="33">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>rbb Brandenburg HD</name>
+		<freq>10891</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,5300,5311,5312,5313,5314,5316,5315</pids>
+	</channel>
+	<channel number="34">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>rbb Berlin HD</name>
+		<freq>10891</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,5310,5311,5312,5313,5314,5316,5315</pids>
+	</channel>
+	<channel number="35">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>MDR Sachsen HD</name>
+		<freq>10891</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,5320,5331,5332,5333,5334,5336,5335</pids>
+		<fec>23</fec>
+	</channel>
+	<channel number="36">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>MDR S-Anhalt HD</name>
+		<freq>10891</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,5330,5331,5332,5333,5334,5336,5335</pids>
+	</channel>
+	<channel number="37">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>MDR Thüringen HD</name>
+		<freq>10891</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,5340,5331,5332,5333,5334,5336,5335</pids>
+	</channel>
+	<channel number="38">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>hr-fernsehen HD</name>
+		<freq>10891</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,5350,5351,5352,5353,5354,5356,5355</pids>
+		<fec>23</fec>
+	</channel>
+	<channel number="39">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>mediaspar HD</name>
+		<freq>10964</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,98,767,771</pids>
+	</channel>
+	<channel number="40">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>QVC BEAUTY   STYLE HD</name>
+		<freq>10964</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,101,37,1535,1539</pids>
+	</channel>
+	<channel number="41">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>DISNEY CH.</name>
+		<freq>11038</freq>
+		<pol>v</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,1027,163,92,93,41</pids>
+	</channel>
+	<channel number="42">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>TCM</name>
+		<freq>11038</freq>
+		<pol>v</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,1031,167,108,109,53</pids>
+	</channel>
+	<channel number="43">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>COMEDY CENTRAL</name>
+		<freq>11038</freq>
+		<pol>v</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,1032,171,124,125,65</pids>
+	</channel>
+	<channel number="44">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>tagesschau24 HD</name>
+		<freq>11053</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,5400,5401,5402,5404,5406</pids>
+		<fec>23</fec>
+	</channel>
+	<channel number="45">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Einsfestival HD</name>
+		<freq>11053</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,5410,5411,5412,5413,5414,5416,5415</pids>
+		<fec>23</fec>
+	</channel>
+	<channel number="46">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>EinsPlus HD</name>
+		<freq>11053</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,5420,5421,5422,5423,5424,5426,5425</pids>
+	</channel>
+	<channel number="47">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>FASHION TV</name>
+		<freq>11156</freq>
+		<pol>v</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,1034,165,100</pids>
+	</channel>
+	<channel number="48">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Volksmusik</name>
+		<freq>11244</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,222,2220,2221</pids>
+	</channel>
+	<channel number="49">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Bibel TV HD</name>
+		<freq>11244</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,224,2240,2241,2245</pids>
+	</channel>
+	<channel number="50">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Schau TV</name>
+		<freq>11244</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,225,2250,2251,2255</pids>
+	</channel>
+	<channel number="51">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Starparadies AT</name>
+		<freq>11244</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,226,2260,2261</pids>
+	</channel>
+	<channel number="52">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>HOPE Channel HD</name>
+		<freq>11244</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,227,2270,2271</pids>
+	</channel>
+	<channel number="53">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>MELODIE TV</name>
+		<freq>11244</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,229,2290,2291</pids>
+	</channel>
+	<channel number="54">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>R9 Oesterreich HD</name>
+		<freq>11273</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,312,3120,3121</pids>
+	</channel>
+	<channel number="55">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>ServusTV HD Oesterreich</name>
+		<freq>11303</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,109,3583,3584,3585,3587,3588,3589</pids>
+	</channel>
+	<channel number="56">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>ServusTV HD Deutschland</name>
+		<freq>11303</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,110,4920,4921,4922,4924,4925,4926</pids>
+		<fec>23</fec>
+	</channel>
+	<channel number="57">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>arte HD</name>
+		<freq>11494</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,5110,5111,5112,5113,5114,5115,5116,5117,5118,5119</pids>
+		<fec>23</fec>
+	</channel>
+	<channel number="58">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>SWR BW HD</name>
+		<freq>11494</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,5120,5121,5122,5123,5124,5125,5126</pids>
+	</channel>
+	<channel number="59">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>SWR RP HD</name>
+		<freq>11494</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,5130,5121,5122,5123,5126,5134,5135</pids>
+	</channel>
+	<channel number="60">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Cubavision Internacional</name>
+		<freq>11509</freq>
+		<pol>v</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,758,708,728</pids>
+	</channel>
+	<channel number="61">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Al Jazeera Channel</name>
+		<freq>11509</freq>
+		<pol>v</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,759,709,729</pids>
+	</channel>
+	<channel number="62">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>a.tv</name>
+		<freq>11523</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,96,255,256</pids>
+	</channel>
+	<channel number="63">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Franken Fernsehen</name>
+		<freq>11523</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,97,511,512</pids>
+	</channel>
+	<channel number="64">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>intv</name>
+		<freq>11523</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,98,767,768</pids>
+	</channel>
+	<channel number="65">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Ulm-Allgäu</name>
+		<freq>11523</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,99,1023,1024</pids>
+	</channel>
+	<channel number="66">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>münchen.tv</name>
+		<freq>11523</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,100,1279,1280</pids>
+	</channel>
+	<channel number="67">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Regional Oberbayern</name>
+		<freq>11523</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,101,1535,1536</pids>
+	</channel>
+	<channel number="68">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Mainfranken</name>
+		<freq>11523</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,102,1791,1792</pids>
+	</channel>
+	<channel number="69">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>TV Oberfranken</name>
+		<freq>11523</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,103,2047,2048</pids>
+	</channel>
+	<channel number="70">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>TVA-OTV</name>
+		<freq>11523</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,104,2303,2304</pids>
+	</channel>
+	<channel number="71">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Niederbayern</name>
+		<freq>11523</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,105,2559,2560</pids>
+	</channel>
+	<channel number="72">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Lokal TV Portal</name>
+		<freq>11523</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,144,4607,4608</pids>
+	</channel>
+	<channel number="73">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Russia Today</name>
+		<freq>11538</freq>
+		<pol>v</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,654,604,624</pids>
+	</channel>
+	<channel number="74">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>France 24 (en Français)</name>
+		<freq>11538</freq>
+		<pol>v</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,201,605,625,6701</pids>
+	</channel>
+	<channel number="75">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>France 24 (in English)</name>
+		<freq>11538</freq>
+		<pol>v</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,202,606,626,6702</pids>
+	</channel>
+	<channel number="76">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>France 24 (in Arabic)</name>
+		<freq>11538</freq>
+		<pol>v</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,660,610,630,6710</pids>
+	</channel>
+	<channel number="77">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>TV5MONDE EUROPE</name>
+		<freq>11538</freq>
+		<pol>v</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,665,615,635,835,935,936,939,937,938,940,942</pids>
+	</channel>
+	<channel number="78">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>BR Süd HD</name>
+		<freq>11582</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,5200,5201,5202,5203,5204,5205,5206</pids>
+	</channel>
+	<channel number="79">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>BR Nord HD</name>
+		<freq>11582</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,5210,5201,5202,5203,5204,5205,5206</pids>
+	</channel>
+	<channel number="80">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>NDR FS NDS HD</name>
+		<freq>11582</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,5220,5221,5222,5223,5224,5225,5226</pids>
+		<fec>23</fec>
+	</channel>
+	<channel number="81">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>NDR FS MV HD</name>
+		<freq>11582</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,5230,5221,5222,5223,5224,5226,5235</pids>
+		<fec>23</fec>
+	</channel>
+	<channel number="82">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>NDR FS HH HD</name>
+		<freq>11582</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,5240,5221,5222,5223,5224,5226,5245</pids>
+		<fec>23</fec>
+	</channel>
+	<channel number="83">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>NDR FS SH HD</name>
+		<freq>11582</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,5250,5221,5222,5223,5224,5226,5255</pids>
+		<fec>23</fec>
+	</channel>
+	<channel number="84">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>PHOENIX HD</name>
+		<freq>11582</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,5260,5261,5262,5263,5264</pids>
+		<fec>23</fec>
+	</channel>
+	<channel number="85">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>CNBC Europe</name>
+		<freq>11597</freq>
+		<pol>v</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,1838,307,308</pids>
+	</channel>
+	<channel number="86">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>BBC World</name>
+		<freq>11597</freq>
+		<pol>v</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,1858,92,163</pids>
+	</channel>
+	<channel number="87">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Bloomberg Europe TV</name>
+		<freq>11597</freq>
+		<pol>v</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,1090,1320,1360</pids>
+	</channel>
+	<channel number="88">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>CNN Int.</name>
+		<freq>11627</freq>
+		<pol>v</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,3946,100,165</pids>
+	</channel>
+	<channel number="89">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>DW</name>
+		<freq>11627</freq>
+		<pol>v</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,273,529,785</pids>
+	</channel>
+	<channel number="90">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>SAT.1 Gold Österreich</name>
+		<freq>11671</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,106,42,2815,2816</pids>
+	</channel>
+	<channel number="91">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Pro7 MAXX Austria</name>
+		<freq>11671</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,107,43,3071,3072</pids>
+	</channel>
+	<channel number="92">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Das Erste</name>
+		<freq>11836</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,100,101,102,103,104,106,105</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="93">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Bayerisches FS Süd</name>
+		<freq>11836</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,200,201,202,203,204,206,205</pids>
+		<fec>23</fec>
+	</channel>
+	<channel number="94">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>hr-fernsehen</name>
+		<freq>11836</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,300,301,302,303,304</pids>
+	</channel>
+	<channel number="95">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Bayerisches FS Nord HD</name>
+		<freq>11582</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>5201,5206</pids>
+		<fec>23</fec>
+	</channel>
+	<channel number="96">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>WDR Köln</name>
+		<freq>11836</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,600,601,602,603,604,605</pids>
+	</channel>
+	<channel number="97">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>SWR Fernsehen BW</name>
+		<freq>11836</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,800,801,802,803,804,806</pids>
+	</channel>
+	<channel number="98">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>TV5MONDE</name>
+		<freq>11934</freq>
+		<pol>v</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1000,1010,1021,1041</pids>
+	</channel>
+	<channel number="99">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>ZDF</name>
+		<freq>11954</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,100,110,120,121,122,125,130,131</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="100">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>3sat</name>
+		<freq>11954</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,200,210,220,221,225,222,230,231</pids>
+	</channel>
+	<channel number="101">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>KiKA</name>
+		<freq>11954</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,300,310,320,321,325,330,331</pids>
+	</channel>
+	<channel number="102">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>ZDFinfo</name>
+		<freq>11954</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,600,610,620,621,625,622,630,631</pids>
+	</channel>
+	<channel number="103">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>DKULTUR</name>
+		<freq>11954</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,700,710,711</pids>
+	</channel>
+	<channel number="104">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>DLF</name>
+		<freq>11954</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,800,810</pids>
+	</channel>
+	<channel number="105">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>zdf_neo</name>
+		<freq>11954</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,650,660,670,671,675,672,680,681</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="106">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>DRadio DokDeb</name>
+		<freq>11954</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,500,510</pids>
+	</channel>
+	<channel number="107">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>zdf.kultur</name>
+		<freq>11954</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1100,1110,1120,1121,1125,1122,1130</pids>
+	</channel>
+	<channel number="108">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>DRadio Wissen</name>
+		<freq>11954</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,411,410</pids>
+	</channel>
+	<channel number="109">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Comedy Central/VIVA</name>
+		<freq>11973</freq>
+		<pol>v</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,416,4061,4062,4064</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="110">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Nick/Spike</name>
+		<freq>11973</freq>
+		<pol>v</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,419,4091,4092,4094</pids>
+	</channel>
+	<channel number="111">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Nickelodeon</name>
+		<freq>11973</freq>
+		<pol>v</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,420,4101,4102,4103,4104</pids>
+	</channel>
+	<channel number="112">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>ProSieben Schweiz</name>
+		<freq>12051</freq>
+		<pol>v</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,32,33,289,290,292</pids>
+	</channel>
+	<channel number="113">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>ProSieben Austria</name>
+		<freq>12051</freq>
+		<pol>v</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1025,36,84,85,161</pids>
+	</channel>
+	<channel number="114">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Kabel 1 Schweiz</name>
+		<freq>12051</freq>
+		<pol>v</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1026,162,163,165</pids>
+	</channel>
+	<channel number="115">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Kabel 1 Austria</name>
+		<freq>12051</freq>
+		<pol>v</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1027,166,167,169</pids>
+	</channel>
+	<channel number="116">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>SAT.1 A</name>
+		<freq>12051</freq>
+		<pol>v</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1028,800,801,802,803</pids>
+	</channel>
+	<channel number="117">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>SAT.1 CH</name>
+		<freq>12051</freq>
+		<pol>v</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,101,38,1535,1536,1539</pids>
+	</channel>
+	<channel number="118">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>SAT.1 HH/SH</name>
+		<freq>12051</freq>
+		<pol>v</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,103,40,2047,2048,2051</pids>
+	</channel>
+	<channel number="119">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>SAT.1 NS/Bremen</name>
+		<freq>12051</freq>
+		<pol>v</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,104,40,2047,2048,2051</pids>
+	</channel>
+	<channel number="120">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>SAT.1 RhlPf/Hessen</name>
+		<freq>12051</freq>
+		<pol>v</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,105,40,2047,2048,2051</pids>
+	</channel>
+	<channel number="121">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>rbb Brandenburg</name>
+		<freq>12110</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,500,601,602,603,604</pids>
+	</channel>
+	<channel number="122">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>rbb Berlin</name>
+		<freq>12110</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,600,601,602,603,604</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="123">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>NDR FS MV</name>
+		<freq>12110</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,2400,2601,2602,2603,2604</pids>
+	</channel>
+	<channel number="124">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>NDR FS HH</name>
+		<freq>12110</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,2500,2601,2602,2603,2604</pids>
+	</channel>
+	<channel number="125">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>NDR FS NDS</name>
+		<freq>12110</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,2600,2601,2602,2603,2604</pids>
+	</channel>
+	<channel number="126">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>NDR FS SH</name>
+		<freq>12110</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,2700,2601,2602,2603,2604</pids>
+	</channel>
+	<channel number="127">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>MDR Sachsen</name>
+		<freq>12110</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,2800,2901,2902,2903,2904,2905</pids>
+	</channel>
+	<channel number="128">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>MDR S-Anhalt</name>
+		<freq>12110</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,2900,2901,2902,2903,2904,2905</pids>
+	</channel>
+	<channel number="129">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>MDR Thüringen</name>
+		<freq>12110</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,3000,2901,2902,2903,2904,2905</pids>
+	</channel>
+	<channel number="130">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>SWR Fernsehen RP</name>
+		<freq>12110</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,3100,3101,3102,3103,3104,3106</pids>
+	</channel>
+	<channel number="131">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>TV5 MONDE</name>
+		<freq>12129</freq>
+		<pol>v</pol>
+		<sr>29700</sr>
+		<src>1</src>
+		<pids>0,1000,1010,1021,1043</pids>
+	</channel>
+	<channel number="132">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>N24 Austria</name>
+		<freq>12148</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,98,255,256</pids>
+	</channel>
+	<channel number="133">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Beauty TV</name>
+		<freq>12148</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,100,3071,3072</pids>
+	</channel>
+	<channel number="134">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Comedy Central / VIVA AT</name>
+		<freq>12148</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,106,33,1535,1536</pids>
+	</channel>
+	<channel number="135">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>NICKELODEON AT</name>
+		<freq>12148</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,107,34,1791,1792,1793</pids>
+	</channel>
+	<channel number="30">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>DELUXE MUSIC</name>
+		<freq>12148</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,99,3327,3328</pids>
+	</channel>
+	<channel number="137">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>BB-MV Lokal-TV</name>
+		<freq>12148</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,103,2559,2560</pids>
+	</channel>
+	<channel number="138">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>DMAX Austria</name>
+		<freq>12148</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,115,45,3583,3584</pids>
+	</channel>
+	<channel number="139">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>ROCK ANTENNE</name>
+		<freq>12148</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,101,304</pids>
+	</channel>
+	<channel number="140">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>sunshine live</name>
+		<freq>12148</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,102,336</pids>
+	</channel>
+	<channel number="141">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>ANTENNE BAYERN</name>
+		<freq>12148</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,112,352</pids>
+	</channel>
+	<channel number="142">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>JML Shop</name>
+		<freq>12148</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,108,2303,2304</pids>
+	</channel>
+	<channel number="143">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>pearl.tv Shop</name>
+		<freq>12148</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,96,2047,2048</pids>
+	</channel>
+	<channel number="144">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>RNF</name>
+		<freq>12148</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,122,38,1104,1105</pids>
+	</channel>
+	<channel number="145">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Channel21</name>
+		<freq>12148</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,113,35,1023,1024</pids>
+	</channel>
+	<channel number="146">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>GOD Channel</name>
+		<freq>12148</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,97,767,768</pids>
+	</channel>
+	<channel number="147">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>MediaShop- Meine Einkaufswelt</name>
+		<freq>12148</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,114,1279,1280</pids>
+	</channel>
+	<channel number="148">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>RTL Television</name>
+		<freq>12188</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,44,163,104,105,106,110</pids>
+	</channel>
+	<channel number="149">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>RTL Regional NRW</name>
+		<freq>12188</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,54,163,104,105</pids>
+	</channel>
+	<channel number="150">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>VOX CH</name>
+		<freq>12188</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,52,172,145,82</pids>
+	</channel>
+	<channel number="151">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>RTL HB NDS</name>
+		<freq>12188</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,55,163,104,105</pids>
+	</channel>
+	<channel number="152">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>RTL Austria</name>
+		<freq>12226</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,200,201,202,203</pids>
+	</channel>
+	<channel number="153">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>VOX Austria</name>
+		<freq>12226</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,300,301,302,303</pids>
+	</channel>
+	<channel number="154">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>RTL2 Austria</name>
+		<freq>12226</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,400,401,402,403</pids>
+	</channel>
+	<channel number="155">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>SUPER RTL A</name>
+		<freq>12226</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,500,501,502,503</pids>
+	</channel>
+	<channel number="156">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>VOX CH</name>
+		<freq>12226</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,600,601,602,603</pids>
+	</channel>
+	<channel number="157">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>RTL CH</name>
+		<freq>12226</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,610,611,612,613,614</pids>
+	</channel>
+	<channel number="158">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Eurosport Deutschland</name>
+		<freq>12226</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,280,101,103,102</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="159">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>HSE24 EXTRA</name>
+		<freq>12226</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,259,512,660,576</pids>
+	</channel>
+	<channel number="160">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>EuroNews</name>
+		<freq>12226</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,260,2432,2433,2434,2435,2436,2437,2438,2439,2440,2441,2442</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="161">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>WDR Event</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1180,1181</pids>
+	</channel>
+	<channel number="162">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>SR Fernsehen</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1300,1301,1302,1303,1304</pids>
+	</channel>
+	<channel number="163">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>ARD-alpha</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1400,1401,1402,1403,1404,1406,1405</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="164">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>ARTE</name>
+		<freq>12402</freq>
+		<pol>v</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1200,1210,1221,1222,1224,1223,1241</pids>
+	</channel>
+	<channel number="165">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>ARTE</name>
+		<freq>12402</freq>
+		<pol>v</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1201,1210,1221,1222,1224,1223,1241</pids>
+	</channel>
+	<channel number="166">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>WDR Bielefeld</name>
+		<freq>12422</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,300,501,502,503,504,505</pids>
+	</channel>
+	<channel number="167">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>WDR Dortmund</name>
+		<freq>12422</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,400,501,502,503,504,505</pids>
+	</channel>
+	<channel number="168">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>WDR Düsseldorf</name>
+		<freq>12422</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,500,501,502,503,504,505</pids>
+	</channel>
+	<channel number="169">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>WDR Essen</name>
+		<freq>12422</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,600,501,502,503,504,505</pids>
+	</channel>
+	<channel number="170">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>WDR Münster</name>
+		<freq>12422</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,700,501,502,503,504,505</pids>
+	</channel>
+	<channel number="171">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>WDR Siegen</name>
+		<freq>12422</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,800,501,502,503,504,505</pids>
+	</channel>
+	<channel number="172">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>WDR HD Köln</name>
+		<freq>12422</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,5500,5501,5502,5503,5504,5506,5505</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="173">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>WDR HD Bielefeld</name>
+		<freq>12422</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,5510,5501,5502,5503,5504,5506,5505</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="174">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>WDR HD Dortmund</name>
+		<freq>12422</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,5520,5501,5502,5503,5504,5506,5505</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="175">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>WDR HD Düsseldorf</name>
+		<freq>12422</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,5530,5501,5502,5503,5504,5506,5505</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="176">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>WDR HD Essen</name>
+		<freq>12422</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,5540,5501,5502,5503,5504,5506,5505</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="177">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>WDR HD Münster</name>
+		<freq>12422</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,5550,5501,5502,5503,5504,5506,5505</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="178">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>WDR HD Siegen</name>
+		<freq>12422</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,5560,5501,5502,5503,5504,5506,5505</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="179">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Radio Bremen TV</name>
+		<freq>12422</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1200,1201,1202,1204</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="180">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>WDR Test A</name>
+		<freq>12422</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1500,501,502,503,504,505</pids>
+	</channel>
+	<channel number="181">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>QVC BEAUTY STYLE</name>
+		<freq>12460</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,102,38,1791,1792</pids>
+	</channel>
+	<channel number="182">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>1-2-3.tv</name>
+		<freq>12460</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,105,32,2815,2816</pids>
+	</channel>
+	<channel number="183">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>ANIXE SD</name>
+		<freq>12460</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,107,3311,3312</pids>
+	</channel>
+	<channel number="184">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>TLC</name>
+		<freq>12460</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,103,37,1535,1536</pids>
+	</channel>
+	<channel number="185">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>SIXX</name>
+		<freq>12460</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,99,35,767,768</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="186">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Disney Channel</name>
+		<freq>12460</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,115,36,2047,2048,2051</pids>
+	</channel>
+	<channel number="187">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>QVC</name>
+		<freq>12460</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,96,33,255,256</pids>
+	</channel>
+	<channel number="188">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Sonnenklar TV</name>
+		<freq>12480</freq>
+		<pol>v</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,97,40,2303,2304</pids>
+	</channel>
+	<channel number="189">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>HSE24</name>
+		<freq>12480</freq>
+		<pol>v</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,104,37,1279,1280</pids>
+	</channel>
+	<channel number="190">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>mediasparTV Homeshopping</name>
+		<freq>12480</freq>
+		<pol>v</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,106,1791,1792</pids>
+	</channel>
+	<channel number="191">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>REGIO TV</name>
+		<freq>12480</freq>
+		<pol>v</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,107,2047,2048</pids>
+	</channel>
+	<channel number="192">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>TELE 5</name>
+		<freq>12480</freq>
+		<pol>v</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,99,38,1535,1536</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="193">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>DMAX</name>
+		<freq>12480</freq>
+		<pol>v</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,108,44,3327,3328</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="194">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>QLAR</name>
+		<freq>12480</freq>
+		<pol>v</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,109,2815,2816</pids>
+	</channel>
+	<channel number="195">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>HSE24 TREND</name>
+		<freq>12480</freq>
+		<pol>v</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,110,37,3071,3072</pids>
+	</channel>
+	<channel number="196">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>AstroTV</name>
+		<freq>12480</freq>
+		<pol>v</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,98,2559,2560</pids>
+	</channel>
+	<channel number="197">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>SAT.1 Bayern</name>
+		<freq>12545</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,103,32,255,256,259</pids>
+	</channel>
+	<channel number="198">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>SAT.1 NRW</name>
+		<freq>12545</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,104,32,255,256,259</pids>
+	</channel>
+	<channel number="199">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>QVC PLUS</name>
+		<freq>12552</freq>
+		<pol>v</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,1060,144,146,168</pids>
+	</channel>
+	<channel number="200">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>QVC Deutschland</name>
+		<freq>12552</freq>
+		<pol>v</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,1030,165,166,167</pids>
+	</channel>
+	<channel number="201">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>sonnenklar.TV HD</name>
+		<freq>12574</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,96,32,255,259</pids>
+	</channel>
+	<channel number="202">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Juwelo HD</name>
+		<freq>12574</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,99,1023,1024</pids>
+	</channel>
+	<channel number="203">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>pearl.tv HD Shop</name>
+		<freq>12574</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,100,1279,1280</pids>
+	</channel>
+	<channel number="204">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>TecTime TV</name>
+		<freq>12574</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,107,3071,3072</pids>
+	</channel>
+	<channel number="205">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Sky News Intl</name>
+		<freq>12604</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,7290,1290,2290</pids>
+	</channel>
+	<channel number="206">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>WDR Aachen</name>
+		<freq>12604</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,3400,3401,3402,3403,3405,3804</pids>
+	</channel>
+	<channel number="207">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>WDR Wuppertal</name>
+		<freq>12604</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,3500,3401,3402,3403,3405,3804</pids>
+	</channel>
+	<channel number="208">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>WDR Bonn</name>
+		<freq>12604</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,3600,3401,3402,3403,3405,3804</pids>
+	</channel>
+	<channel number="209">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>WDR Duisburg</name>
+		<freq>12604</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,3700,3401,3402,3403,3405,3804</pids>
+	</channel>
+	<channel number="210">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>WDR HD Aachen</name>
+		<freq>12604</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,5600,5601,5602,5603,5604,5605,5606</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="211">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>WDR HD Wuppertal</name>
+		<freq>12604</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,5610,5601,5602,5603,5604,5605,5606</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="212">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>WDR HD Bonn</name>
+		<freq>12604</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,5620,5601,5602,5603,5604,5605,5606</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="213">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>WDR HD Duisburg</name>
+		<freq>12604</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,5630,5601,5602,5603,5604,5605,5606</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="214">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>rhein main tv</name>
+		<freq>12633</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,108,208,308,508</pids>
+	</channel>
+	<channel number="215">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Juwelo TV</name>
+		<freq>12633</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,116,1041,1042</pids>
+	</channel>
+	<channel number="216">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>RTL NITRO A</name>
+		<freq>12663</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,1102,1020,1021,1025</pids>
+	</channel>
+	<channel number="217">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Welt der Wunder</name>
+		<freq>12663</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,1103,1030,1031</pids>
+	</channel>
+	<channel number="218">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>LT1-OOE</name>
+		<freq>12663</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,1104,1040,1041</pids>
+	</channel>
+	<channel number="219">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>sixx Austria</name>
+		<freq>12663</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,1106,1060,1061,1063</pids>
+	</channel>
+	<channel number="220">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>ServusTV Deutschland</name>
+		<freq>12663</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,1210,1110,1111,1112,1115,1116</pids>
+	</channel>
+	<channel number="221">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>ServusTV Oesterreich</name>
+		<freq>12663</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,1211,2110,2111,2112,2115,2116</pids>
+	</channel>
+	<channel number="222">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>L-TV/TVM</name>
+		<freq>12663</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,1213,2130,2131</pids>
+	</channel>
+	<channel number="223">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>RiC</name>
+		<freq>12692</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,1009,190,191</pids>
+	</channel>
+	<channel number="224">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>gotv</name>
+		<freq>12692</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,1021,3020,3021</pids>
+	</channel>
+	<channel number="225">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>ffn digital</name>
+		<freq>12633</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,154,354</pids>
+	</channel>
+	<channel number="226">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>Radio Paloma</name>
+		<freq>12633</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,155,355</pids>
+	</channel>
+	<channel number="227">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>Radio HBR</name>
+		<freq>12633</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,156,356</pids>
+	</channel>
+	<channel number="228">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>Radio HCJB</name>
+		<freq>12633</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,157,357</pids>
+	</channel>
+	<channel number="229">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>Radio Gloria</name>
+		<freq>12633</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,159,359</pids>
+	</channel>
+	<channel number="230">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>HIT RADIO FFH</name>
+		<freq>12633</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,109,1024</pids>
+	</channel>
+	<channel number="231">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>planet radio</name>
+		<freq>12633</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,110,1030</pids>
+	</channel>
+	<channel number="232">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>harmony.fm</name>
+		<freq>12633</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,111,1036</pids>
+	</channel>
+	<channel number="233">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>Radio Regenbogen</name>
+		<freq>12633</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,163,363</pids>
+	</channel>
+	<channel number="234">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>radio B2</name>
+		<freq>12633</freq>
+		<pol>h</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,164,364</pids>
+	</channel>
+	<channel number="235">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>Bayern 1</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,100,101</pids>
+	</channel>
+	<channel number="236">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>Bayern 2</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,110,111</pids>
+	</channel>
+	<channel number="237">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>BAYERN 3</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,120,121</pids>
+	</channel>
+	<channel number="238">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>BR-KLASSIK</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,130,132</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="239">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>B5 aktuell</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,140,141</pids>
+	</channel>
+	<channel number="240">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>BAYERN plus</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,150,151</pids>
+	</channel>
+	<channel number="241">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>PULS</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,160,161</pids>
+	</channel>
+	<channel number="242">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>BR Heimat</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,170,171</pids>
+	</channel>
+	<channel number="243">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>B5 plus</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,180,181</pids>
+	</channel>
+	<channel number="244">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>hr1</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,400,401</pids>
+	</channel>
+	<channel number="245">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>hr2</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,410,411,412</pids>
+	</channel>
+	<channel number="246">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>hr3</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,420,421</pids>
+	</channel>
+	<channel number="247">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>hr4</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,430,431</pids>
+	</channel>
+	<channel number="248">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>YOU FM</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,450,451</pids>
+	</channel>
+	<channel number="249">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>hr-iNFO</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,460,461</pids>
+	</channel>
+	<channel number="250">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>MDR1 SACHSEN</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,500,501</pids>
+	</channel>
+	<channel number="251">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>MDR S-ANHALT</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,510,511</pids>
+	</channel>
+	<channel number="252">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>MDR THÜRINGEN</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,520,521</pids>
+	</channel>
+	<channel number="253">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>MDR FIGARO</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,530,531,532</pids>
+	</channel>
+	<channel number="254">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>MDR JUMP</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,540,541</pids>
+	</channel>
+	<channel number="255">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>MDR SPUTNIK</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,550,551</pids>
+	</channel>
+	<channel number="256">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>MDR INFO</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,560,561</pids>
+	</channel>
+	<channel number="257">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>MDR KLASSIK</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,570,571</pids>
+	</channel>
+	<channel number="258">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>NDR 2</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,600,601</pids>
+	</channel>
+	<channel number="259">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>NDR Kultur</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,610,611</pids>
+	</channel>
+	<channel number="260">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>NDR Info</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,620,621</pids>
+	</channel>
+	<channel number="261">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>N-JOY</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,630,631</pids>
+	</channel>
+	<channel number="262">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>NDR 90,3</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,640,641</pids>
+	</channel>
+	<channel number="263">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>NDR1WelleNord</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,650,651</pids>
+	</channel>
+	<channel number="264">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>NDR 1 Radio MV</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,660,661</pids>
+	</channel>
+	<channel number="265">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>NDR 1 Nieders.</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,670,671</pids>
+	</channel>
+	<channel number="266">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>NDR Info Spez.</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,680,681</pids>
+	</channel>
+	<channel number="267">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>NDR Blue</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,690,691</pids>
+	</channel>
+	<channel number="268">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>Bremen Eins</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,700,701</pids>
+	</channel>
+	<channel number="269">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>Nordwestradio</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,710,711</pids>
+	</channel>
+	<channel number="270">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>Bremen Vier</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,720,721</pids>
+	</channel>
+	<channel number="271">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>Inforadio</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,800,801</pids>
+	</channel>
+	<channel number="272">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>Kulturradio</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,810,811</pids>
+	</channel>
+	<channel number="273">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>Antenne Brandenburg</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,820,821</pids>
+	</channel>
+	<channel number="274">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>radioBERLIN 88,8</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,830,831</pids>
+	</channel>
+	<channel number="275">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>radioeins</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,840,841</pids>
+	</channel>
+	<channel number="276">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>Fritz</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,850,851</pids>
+	</channel>
+	<channel number="277">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>SR 1 Europawelle</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,900,901</pids>
+	</channel>
+	<channel number="278">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>SR 2 KulturRadio</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,910,911</pids>
+	</channel>
+	<channel number="279">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>SR 3 Saarlandwelle</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,920,921</pids>
+	</channel>
+	<channel number="280">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>SWR1 BW</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1000,1001</pids>
+	</channel>
+	<channel number="281">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>SWR1 RP</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1010,1011</pids>
+	</channel>
+	<channel number="282">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>SWR2</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1020,1021,1022</pids>
+	</channel>
+	<channel number="283">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>SWR3</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1030,1031</pids>
+	</channel>
+	<channel number="284">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>SWR4 BW</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1040,1041</pids>
+	</channel>
+	<channel number="285">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>SWR4 RP</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1050,1051</pids>
+	</channel>
+	<channel number="286">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>DASDING</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1060,1061</pids>
+	</channel>
+	<channel number="287">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>SWRinfo</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1070,1071</pids>
+	</channel>
+	<channel number="288">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>1LIVE</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1100,1101</pids>
+	</channel>
+	<channel number="289">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>WDR 2</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1110,1111</pids>
+	</channel>
+	<channel number="290">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>WDR 3</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1120,1122</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="291">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>WDR 4</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1130,1131</pids>
+	</channel>
+	<channel number="292">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>WDR 5</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1140,1141</pids>
+		<fec>34</fec>
+	</channel>
+	<channel number="293">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>WDR Funkhaus Europa</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1150,1151</pids>
+	</channel>
+	<channel number="294">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>radio</type>
+		<name>1LIVE diGGi</name>
+		<freq>12266</freq>
+		<pol>h</pol>
+		<sr>27500</sr>
+		<src>1</src>
+		<pids>0,1160,1161</pids>
+	</channel>
+	<channel number="295">
+		<tuneType>DVB-S</tuneType>
+		<modulation>QPSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Bibel TV</name>
+		<freq>12552</freq>
+		<pol>v</pol>
+		<sr>22000</sr>
+		<src>1</src>
+		<pids>0,32,33,34,36</pids>
+	</channel>
+	<channel number="296">
+		<tuneType>DVB-S2</tuneType>
+		<modulation>8PSK</modulation>
+		<visible>true</visible>
+		<type>tv</type>
+		<name>Pearl tv</name>
+		<freq>12344</freq>
+		<pol>h</pol>
+		<sr>30000</sr>
+		<src>1</src>
+		<pids>2815,2816</pids>
+	</channel>
+</channelTable>
