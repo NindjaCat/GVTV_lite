@@ -372,16 +372,19 @@ public boolean setChannel(int channelID, String proto) throws IOException{
 	                }else {
 	                	if(tempT!=null && tempT.isGarbage()) {
 	                		System.err.println("MATCHING TRANSCODER IS STALE! New instance. isGarbage=" + tempT.isGarbage()+ ", " + tempT.getChannel().getName());
+//	                		Sngltn.getInstance().getInternalTranscoderMap().remove(Triple.of(tempT.getProtocol(),tempT.getChannel(), (byte) (tempT.getQuality()+(tempT.getResolution()*10))), tempT); recent del
+//	                		tempT.stopTranscoderNowForcfully(true); recent del
 	                		tempT.removeClient(""+portStream,String.valueOf(id)); //recent add
 	                	}
 	                		
 	                	tcb=new TranscoderBuilder();
 	                	myTranscoder = tcb.setProtocol(protocol).setChannel(chan).setQuality(quality).setServerIp(serverIp).setResolution(resolution).getProduct();
 	                	System.err.println("BUILDING NEW TRANSCODER! New instance. isGarbage=" + myTranscoder.isGarbage() + ", " + chan.getName());
+//	                	Sngltn.getInstance().getInternalTranscoderMap().put(Triple.of(protocol,chan, (byte) (quality+(resolution*10))), myTranscoder);
 	                }
+	                
 
 
-	            myTranscoder.startTranscoder(""+portStream, String.valueOf(id));
 
 	            sps=new SimpleProxyServer("127.0.0.1", myTranscoder.getChosenInternalStreamPort(), portStream);
             	myTranscoder.addProxy(""+portStream,sps);

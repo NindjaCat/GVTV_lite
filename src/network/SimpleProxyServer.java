@@ -226,7 +226,8 @@ public void runServer()
     }
     System.err.println("SimpleProxyServer says goodbye!");
     getSsps().remove(this);
-    ss.close();
+    if(ss!=null)
+    	ss.close();
   }
 
 

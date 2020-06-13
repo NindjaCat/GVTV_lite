@@ -62,7 +62,7 @@ public class App {
 		
 		Sngltn.getInstance();
 		
-		File file = new File("config_test.xml");
+		File file = new File("config.xml");
 		DLNAScanner dlnas=null;
 		
 		try (FileReader fileReader=new FileReader(file)){

@@ -281,8 +281,8 @@ public class InternalTranscoder {//extends Application {
 			if(mpea.isPlaying())
 				mediaPlayer.controls().stop();
 		}
-	
-		mediaPlayer.events().removeMediaPlayerEventListener(mpea);
+		if(mediaPlayer!=null && mpea!=null)
+			mediaPlayer.events().removeMediaPlayerEventListener(mpea);
 		try {
 			Thread.sleep(50);
 		} catch (InterruptedException e1) {

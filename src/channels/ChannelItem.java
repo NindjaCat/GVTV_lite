@@ -45,7 +45,6 @@ public class ChannelItem {
         int hash = 7;
         hash = 31 * hash + (int) id;
         hash = 31 * hash + (name == null ? 0 : name.hashCode());
-        hash = 31 * hash + (link == null ? 0 : link.hashCode());
         return hash;
     }
     
@@ -58,19 +57,12 @@ public class ChannelItem {
     	if (getClass() != obj.getClass())
     		return false;
     	ChannelItem other = (ChannelItem) obj;
-    	if (id != other.id)
-    		return false;
     	if (name == null) {
     		if (other.name != null)
     			return false;
     	} else if (!name.equals(other.name))
     		return false;
     	
-    	if (link == null) {
-    		if (other.link != null)
-    			return false;
-    	} else if (!link.equals(other.link))
-    		return false;
     	
     	
     	return true;
