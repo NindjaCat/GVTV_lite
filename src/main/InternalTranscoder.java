@@ -163,17 +163,6 @@ public class InternalTranscoder {//extends Application {
             
             String[] options= {""};
             
-            String PATH = "C:\\Temp\\dash\\ts\\"+channel.getName().replace(" ", "").toLowerCase();            
-            String FILE = "C:\\Temp\\dash\\"+channel.getName().replace(" ", "").toLowerCase()+".m3u8";            
-
-            File directory = new File(PATH);
-            if (!directory.exists()){
-                directory.mkdir();
-            }
-            File file = new File(FILE);
-            if (file.exists()){
-                file.delete();
-            }
             
             String statusTemp2 = wd.getMyStatus();
     			wd.writeSomethingToStatus(preset.substring(0, 1) + ":" + this.quality + " " + statusTemp2);
@@ -181,9 +170,7 @@ public class InternalTranscoder {//extends Application {
             if(this.protocol.equals("tcp")) {
             switch(this.quality){ //tune=film,
             
-        	//currentP.sendLine("--sout=#transcode{vcodec=h264,scale=1.0,deinterlace,venc=x264{aud,profile=high,level=30,keyint=30,ref=1,vbv-maxrate=2000},acodec=mp3,ab=128}:std{access=livehttp{seglen=5,delsegs=true,numsegs=10,index=C:\\Temp\\prog_index.m3u8,index-url=http://wegehaupt.ddns.net:8080/files/ts/fileSequence######.ts},mux=ts{use-key-frames},dst=C:\\Temp\\ts\\fileSequence######.ts} --audio-track=0 --network-caching=3000 --sout-transcode-deinterlace --avcodec-threads=2 --qt-start-minimized :no-sout-all :sout-keep");
-            //venc=x264{aud
-            	case 0: options = new String[]{":sout=#transcode{soverlay,sfilter=marq{marquee='1',opacity=120,size=16,timeout=30000},vcodec=h264,"+resolutionString+"venc=x264{preset="+preset+",profile=baseline,keyint=100,vbv-maxrate=3250,vbv-bufsize=1625,level=4,ratetol=10.0},acodec=aac,ab=128,channels=2,samplerate=48000,intra-refresh=true}			:duplicate{dst=http{mux=ts,dst=:"+chosenInternalStreamPort+"/go."+extension+"},dst=std{access=livehttp{seglen=3,delsegs=true,numsegs=6,index=C:\\Temp\\dash\\"+channel.getName().replace(" ", "").toLowerCase() +".m3u8,index-url=https://wegestream.ngrok.io/files/ts/"+channel.getName().replace(" ", "").toLowerCase()+"/fileSequence######.ts},mux=ts{use-key-frames},dst=C:\\Temp\\dash\\ts\\"+channel.getName().replace(" ", "").toLowerCase()+"\\fileSequence######.ts},dst=display}","--network-caching=50","--sout-mux-caching=25","--live-caching=35","--sout-x264-lookahead=25",deinterlace1,deinterlace2,"--avcodec-threads=1",":no-sout-keep",":no-sout-all"};break; //"--sout-x264-tune=zerolatency" "--sout-x264-tune=film"
+            	case 0: options = new String[]{":sout=#transcode{soverlay,sfilter=marq{marquee='1',opacity=120,size=16,timeout=30000},vcodec=h264,"+resolutionString+"venc=x264{preset="+preset+",profile=baseline,keyint=100,vbv-maxrate=3250,vbv-bufsize=1625,level=4,ratetol=10.0},acodec=aac,ab=128,channels=2,samplerate=48000,intra-refresh=true}			:duplicate{dst=http{mux=ts,dst=:"+chosenInternalStreamPort+"/go."+extension+"},dst=display}","--network-caching=50","--sout-mux-caching=25","--live-caching=35","--sout-x264-lookahead=25",deinterlace1,deinterlace2,"--avcodec-threads=1",":no-sout-keep",":no-sout-all"};break; //"--sout-x264-tune=zerolatency" "--sout-x264-tune=film"
             	case 1: options = new String[]{":sout=#transcode{soverlay,sfilter=marq{marquee='2',opacity=120,size=16,timeout=30000},vcodec=h264,"+resolutionString+"venc=x264{preset="+preset+",profile=baseline,keyint=100,vbv-maxrate=3000,vbv-bufsize=1500,level=4,ratetol=10.0},acodec=aac,ab=128,channels=2,samplerate=48000,intra-refresh=true}			:duplicate{dst=http{mux=ts,dst=:"+chosenInternalStreamPort+"/go.ts},dst=display}","--network-caching=50","--sout-mux-caching=25","--live-caching=35","--sout-x264-lookahead=25",deinterlace1,deinterlace2,"--avcodec-threads=1",":no-sout-keep",":no-sout-all"};break; //"--sout-x264-tune=film"
             	case 2: options = new String[]{":sout=#transcode{soverlay,sfilter=marq{marquee='3',opacity=120,size=16,timeout=30000},vcodec=h264,"+resolutionString+"venc=x264{preset="+preset+",						keyint=100,vbv-maxrate=2700,vbv-bufsize=1000,level=4,ratetol=10.0},acodec=aac,ab=128,channels=2,samplerate=48000,intra-refresh=true}			:duplicate{dst=http{mux=ts,dst=:"+chosenInternalStreamPort+"/go.ts},dst=display}","--network-caching=50","--sout-mux-caching=25","--live-caching=35","--sout-x264-lookahead=25",deinterlace1,deinterlace2,"--sout-x264-tune=film","--avcodec-threads=1",":no-sout-keep",":no-sout-all"};break;
             	case 3: options = new String[]{":sout=#transcode{soverlay,sfilter=marq{marquee='4',opacity=120,size=16,timeout=30000},vcodec=h264,"+resolutionString+"venc=x264{preset="+preset+",						keyint=100,vbv-maxrate=500,vbv-bufsize=500,level=4,ratetol=10.0},acodec=aac,ab=128,channels=2,samplerate=48000,intra-refresh=true}			:duplicate{dst=http{mux=ts,dst=:"+chosenInternalStreamPort+"/go.ts},dst=display}","--network-caching=50","--sout-mux-caching=25","--live-caching=35","--sout-x264-lookahead=25",deinterlace1,deinterlace2,"--sout-x264-tune=film","--avcodec-threads=1",":no-sout-keep",":no-sout-all"};break;
