@@ -56,7 +56,7 @@ public class ChannelReader {
 	    	channelsXML=ct.getChannel();
 	    	for(ChannelTable.Channel c:channelsXML) {
 
-		    		if(rtsp && type==2) {
+		    		if(rtsp && type==2) { 
 		    			channels.put((int)c.getNumber(),new ChannelItem(c.getNumber(),c.getName(),"rtsp://"+this.ipSatIpServer.replace(":80", ":554")+"/?src="+c.getSrc()+"&freq="+c.getFreq()+"&pol="+c.getPol()+"&ro=0.35&msys="+c.getTuneType().toLowerCase().replace("-","")+"&mtype="+c.getModulation().toLowerCase()+"&plts="+(c.getTuneType().contains("2")?"on":"off")+"&sr="+c.getSr()+(c.getFec()==null?"&fec=56":("&fec="+c.getFec()))+"&pids="+c.getPids()));}
 		    		else if(http && type==2){
 		    			channels.put((int)c.getNumber(),new ChannelItem(c.getNumber(),c.getName(),"http://"+this.ipSatIpServer+"/dlna/?type="+c.tuneType+"&src="+c.getSrc()+"&freq="+c.getFreq()+"&sr="+c.getSr()+"&pol="+c.getPol()+"&pids="+c.getPids()+",17,18"));}
